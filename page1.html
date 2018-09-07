@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>page1</title>
+		<link rel="stylesheet" type="text/css" href="css/page1.css"/>
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/page1.js"></script>
+		<script src="js/vue.js"></script>
+		
+	</head>
+	<body>
+		<!--===================导航=======================-->
+		<div id="header">
+			<nav1></nav1>
+		</div>
+		<!--===================导航模块儿=======================-->
+			<template id="s">
+				<header>
+					<nav>
+						<h1><mark>{{msg[0].v1}}</mark>{{msg[0].v2}}</h1>
+						<ul>
+							<li><a :href="msg[1].hf1">{{msg[0].v3}}</a></li>
+							<li><a :href="msg[1].hf2">{{msg[0].v4}}</a></li>
+							<li><a :href="msg[1].hf3">{{msg[0].v5}}</a></li>
+							<li><a :href="msg[1].hf4">{{msg[0].v6}}</a></li>
+							<li>
+								<a :href="msg[1].hf5">{{msg[0].v7}}</a>
+								
+								<ul class="erji">
+									<p></p>
+									<li><a :href="msg[1].hf6">{{msg[0].v8}}</a></li>
+								</ul>
+							</li>
+						</ul>
+						<div>
+							<a :href="msg[1].hf7">{{msg[0].v9}}</a>
+							<a :href="msg[1].hf8">{{msg[0].v10}}</a>
+						</div>
+					</nav>
+				</header>
+			</template>	
+		<!--===================导航模块儿=======================-->
+		<!--===================导航=======================-->
+		<!--=================sec1==========================-->
+		<section class="sec1">
+			<ul>
+				<li>
+					<img src="img/img1/1.jpg" alt="" />
+					<div>
+						<h1>移动门户 </h1>
+						<p>开启移动场景营销</p>
+						<p>本土化设计、海外高效传播、获取海外商机更轻松</p>
+						<a href="page2.html">了解详情</a>
+					</div>
+				</li>
+				<li>
+					<img src="img/img1/2.jpg" alt="" />
+					<div>
+						<h1>外貌门户 </h1>
+						<p>开启全球贸易之门</p>
+						<p>整合多种营销模式、提升企业曝光率、获取更多商机</p>
+						<a href="page2.html">了解详情</a>
+					</div>
+				</li>
+				<li>
+					<img src="img/img1/1.jpg" alt="" />
+					<div>
+						<h1>移动门户 </h1>
+						<p>开启移动场景营销</p>
+						<p>本土化设计、海外高效传播、获取海外商机更轻松</p>
+						<a href="page2.html">了解详情</a>
+					</div>
+				</li>
+				<li>
+					<img src="img/img1/2.jpg" alt="" />
+					<div>
+						<h1>外貌门户 </h1>
+						<p>开启全球贸易之门</p>
+						<p>整合多种营销模式、提升企业曝光率、获取更多商机</p>
+						<a href="page2.html">了解详情</a>
+					</div>
+				</li>
+			</ul>
+			<div class="btn1">&lt;</div>
+			<div class="btn2">&gt;</div>
+		</section>
+		<!--=================sec1==========================-->
+		
+		<!--=================sec2============================-->
+		<section class="sec2">
+			<ul>
+				<li>
+					<img src="img/img1/21.png" alt="" />
+					<div>
+						<p>免费试用一个月</p>
+						<span>办公协同</span>
+					</div>
+				</li>
+				<li>
+					<img src="img/img1/22.png" alt="" />
+					<div>
+						<p>快速了解我们</p>
+						<span>航拍+VR展示</span>
+					</div>
+				</li>
+				<li>
+					<img src="img/img1/23.png" alt="" />
+					<div>
+						<p>营销宝</p>
+						<span>企业H5营销指南</span>
+					</div>
+				</li>
+				<li>
+					<img src="img/img1/24.png" alt="" />
+					<div>
+						<p>扫码购</p>
+						<span>助力企业实现社会化电商</span>
+					</div>					
+				</li>
+			</ul>
+		</section>
+		<!--=================sec2============================-->
+		
+		<!--=================sec3===============================-->
+		<section class="sec3">
+			<div class="wrap3">
+				<div>
+					<p>一站式企业互联网云服务产品</p>
+					<span>
+						建站、营销、电商、协同、管理，专业产品助您轻松实现智能运营
+					</span>
+				</div>
+				<ul>
+					<li>
+						<img src="img/img1/31.png" alt="" />
+						<span>数据库</span>
+					</li>
+					<li>
+						<img src="img/img1/32.png" alt="" />
+						<span>应用服务</span>
+					</li>
+					<li>
+						<img src="img/img1/33.png" alt="" />
+						<span>域名与网站</span>
+					</li>
+					<li>
+						<img src="img/img1/34.png" alt="" />
+						<span>网络</span>
+					</li>
+					<li>
+						<img src="img/img1/35.png" alt="" />
+						<span>存储和CDN</span>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<!--=================sec3===============================-->
+		
+		<!--=================sec4===============================-->
+		<section class="sec4">
+			<div class="wrap4">
+				<ul>
+					<li>全网电商解决方案</li>
+					<li>工业品内贸解决方案</li>
+					<li>机械行业信息展示解决方案</li>
+					<li>企业域名品牌保护方案</li>
+					<li></li>
+				</ul>
+				<div>
+					<h3>企业域名品牌保护方案</h3>
+					<p>
+						根据多年积累的互联网专业服务经验，为应对互联网时代所带来的品牌发展冲击，我们为企业提供全面、个性化的域名注册、信息管理、安全防护的互联网品牌资产保护解决方案。
+					</p>
+					<ul>
+						<li>
+							<img src="img/img1/41.png" alt="" />
+							<span>IT线上线下协同 全网营销</span>
+						</li>
+						<li>
+							<img src="img/img1/42.png" alt="" />
+							<span>打通线上线下渠道</span>
+						</li>
+						<li>
+							<img src="" alt="" />
+							<span></span>
+						</li>
+					</ul>
+					<a href="page2.html">了解详情</a>
+				</div>
+			</div>
+		</section>
+		<!--=================sec4===============================-->
+		<!--=================sec5===============================-->
+		<section class="sec5">
+			<ul>
+				<li>
+					<img src="img/img1/51.png" alt="" />
+					<span>基础软件</span>
+				</li>
+				<li>
+					<img src="img/img1/52.png" alt="" />
+					<span>网站建设</span>
+				</li>
+				<li>
+					<img src="img/img1/53.png" alt="" />
+					<span>服务与培训</span>
+				</li>
+				<li>
+					<img src="img/img1/54.png" alt="" />
+					<span>企业应用</span>
+				</li>
+				<li>
+					<img src="img/img1/55.png" alt="" />
+					<span>安全市场</span>
+				</li>
+				<li>
+					<img src="img/img1/56.png" alt="" />
+					<span>API市场</span>
+				</li>
+				<li>
+					<img src="img/img1/57.png" alt="" />
+					<span>基础软件</span>
+				</li>
+				<li>
+					<img src="img/img1/58.png" alt="" />
+					<span>大数据应用</span>
+				</li>
+			</ul>
+		</section>
+		
+		<!--=================sec5===============================-->
+		
+		
+		<!--=================sec6===============================-->
+		<section class="sec6">
+			<div class="wrap6">
+				<h1>为什么选择我们</h1>
+				<span>您的企业电子商务专家</span>
+				<ul>
+					<li>
+						<span>10</span><span>年行业网经验服务</span>
+					</li>
+					<li>
+						<span>12</span><span>家分公司</span>
+					</li>
+					<li>
+						<span>101</span><span>万行业客户</span>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<!--=================sec6===============================-->
+		
+		<!--=================sec7===============================-->
+		<section class="sec7">
+			<ul>
+				<li>
+					<img src="img/img1/71.png" alt="" />
+					<div>
+						<p>7x24小时售后支持</p>
+						<span>全国7×24小时客服热线</span>
+					</div>
+				</li>
+				<li>
+					<img src="img/img1/72.png" alt="" />
+					<div>
+						<p>5倍故障时长赔偿 </p>
+						<span>5倍赔付终端服务的时间</span>
+					</div>
+				</li>
+				<li>
+					<img src="img/img1/73.png" alt="" />
+					<div>
+						<p>15天无理由退款</p>
+						<span>部分产品可享受15天无理由退款</span>
+					</div>
+				</li>
+				<li>
+					<img src="img/img1/74.png" alt="" />
+					<div>
+						<p>多对一团队服务 </p>
+						<span>全国80家分公司便捷服务 </span>
+					</div>					
+				</li>
+			</ul>
+		</section>
+		<!--=================sec7===============================-->
+		
+		
+		<!--=================sec8===============================-->
+		<section class="sec8">
+			<div class="wrap8">
+				<ul>
+					<li>
+						<img src="img/img1/81.png" alt="" />
+						<div>
+							<p>客服咨询</p>
+							<span>020-000-0000</span>
+						</div>
+					</li>
+					<li>
+						<p>公司地址：XXX省XXX市XXX县XXX路XXX号</p>
+					</li>
+					<li>
+						<p>邮政编码：000000</p>
+						<span>客服邮箱：contact@fkadjkhsf.co</span>
+					</li>
+				</ul>
+				<p>©2018 网站模板—IT 版权所有</p>
+				<ul>
+					<li>
+						<a href="#javascript:">手机版</a>
+					</li>
+					<li>
+						<a href="凡科建站.html">
+							本站使用&emsp;凡科建站
+						</a>
+					</li>
+					<li>
+						<a href="#javascript:">管理登录</a>
+					</li>
+				</ul>
+			</div>
+			
+		</section>
+		<!--=================sec8===============================-->
+	</body>
+</html>
